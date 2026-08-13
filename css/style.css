@@ -480,10 +480,10 @@ button, input, select {
 
 /* Material Features Bar */
 .material-bar {
-  background: var(--white);
-  padding: 24px 0;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  border-bottom: 1px solid #E2E8F0;
+  background: linear-gradient(135deg, #F0F9FF 0%, #E0F2FE 100%);
+  padding: 28px 0;
+  box-shadow: 0 10px 30px rgba(14, 165, 233, 0.08);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.3);
 }
 
 .material-bar-grid {
@@ -525,6 +525,27 @@ button, input, select {
 /* Section Common Styling */
 .section {
   padding: 90px 0;
+}
+
+#catalog {
+  background: linear-gradient(180deg, #F0F9FF 0%, #E6F4FE 100%);
+}
+
+#testimonials {
+  background: linear-gradient(135deg, var(--royal-dark) 0%, var(--royal-navy) 100%);
+  color: var(--white);
+}
+
+#testimonials .section-title {
+  color: var(--white);
+}
+
+#testimonials .section-desc {
+  color: #94A3B8;
+}
+
+#care-guide {
+  background: linear-gradient(180deg, #F0F7FF 0%, #E0F2FE 100%);
 }
 
 .section-title-wrap {
